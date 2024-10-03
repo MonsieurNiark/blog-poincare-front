@@ -10,11 +10,11 @@ function Footer() {
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
       />
-      <div class="footer-clean">
+      <div className="footer-clean">
         <footer>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-sm-4 col-md-3 item">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-sm-4 col-md-3 item">
                 <h3>Services</h3>
                 <ul>
                   <li>
@@ -28,7 +28,7 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div class="col-sm-4 col-md-3 item">
+              <div className="col-sm-4 col-md-3 item">
                 <h3>About</h3>
                 <ul>
                   <li>
@@ -42,11 +42,13 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <div class="col-lg-3 item social">
+              <div className="col-lg-3 item social">
                 <a href="https://www.linkedin.com/in/robyn-danglos-850423146/">
-                  <i class="icon ion-social-linkedin"></i>
+                  <i className="icon ion-social-linkedin"></i>
                 </a>
-                <p class="copyright">Robyn Danglos - Blog Poincaré © 2024</p>
+                <p className="copyright">
+                  Robyn Danglos - Blog Poincaré © 2024
+                </p>
               </div>
             </div>
           </div>

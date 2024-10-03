@@ -21,10 +21,6 @@ const ArticleWidget = ({ article }) => {
           </div>
         </div>
       </div>
-      {/* <div>
-        <h2>{title}</h2>
-        <div dangerouslySetInnerHTML={{ __html: main_content }} />
-      </div> */}
     </div>
   );
 };
