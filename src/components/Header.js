@@ -1,10 +1,14 @@
 import "../styles/general.css";
-function Header() {
+import { useNavigate } from "react-router-dom";
+
+const Header = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="header">
-      <h1>Blog Poincaré</h1>
+      <h1 onClick={() => navigate("/")}>Blog Poincaré</h1>
     </div>
   );
-}
+};
 
 export default Header;
