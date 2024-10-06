@@ -116,3 +116,36 @@
 .gosubmit-button:hover {
   background-color: var(--bleu-fonce);
 }
+
+.new-article-container form {
+  max-width: 420px;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.new-article-form-input {
+  color: var(--bleu-low-medium);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid var(--bleu-low-medium);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 450px;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.new-article-form-input:focus {
+  border: 2px solid var(--bleu-medium);
+}
+
+.new-article-container textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}

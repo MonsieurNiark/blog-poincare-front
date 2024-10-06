@@ -7,7 +7,7 @@ const ListArticlesWidget = () => {
   return (
     <div className="content">
       <div className="articles-widget-container">
-        <Link to={`/submit`}>
+        <Link to={`/new`}>
           <button className="gosubmit-button">
             <span>
               <svg

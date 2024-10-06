@@ -2,7 +2,7 @@ import "../styles/general.css";
 import Home from "./Home";
 import Footer from "./Footer";
 import Header from "./Header";
-import SubmitArticle from "./article/SubmitArticle";
+import NewArticle from "./article/NewArticle";
 import ArticleDetails from "./article/ArticleDetails";
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
@@ -16,7 +16,7 @@ function App() {
           <Route path="/home" element={<Home />}></Route>
           <Route path="/article/:id" element={<ArticleDetails />}></Route>
 
-          <Route path="/submit" element={<SubmitArticle />}></Route>
+          <Route path="/new" element={<NewArticle />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
